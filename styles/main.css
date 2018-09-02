@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'OpenDyslexic3';
-    src: url('brainstem/styles/fonts/OpenDyslexicThree-Bold.woff2') format('woff2'),
-        url('brainstem/styles/fonts/OpenDyslexicThree-Bold.woff') format('woff');
+    src: url('styles/fonts/OpenDyslexicThree-Bold.woff2') format('woff2'),
+        url('styles/fonts/OpenDyslexicThree-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
@@ -9,15 +9,15 @@
 @font-face {
     font-family: 'OpenDyslexic3';
     src: url('brainste/styles/fonts/OpenDyslexicThree-Regular.woff2') format('woff2'),
-        url('brainstem/styles/fonts/penDyslexicThree-Regular.woff') format('woff');
+        url('styles/fonts/penDyslexicThree-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sabo';
-    src: url('brainstem/styles/fonts/Sabo-Filled.woff2') format('woff2'),
-        url('brainstem/styles/fonts/Sabo-Filled.woff') format('woff');
+    src: url('styles/fonts/Sabo-Filled.woff2') format('woff2'),
+        url('styles/fonts/Sabo-Filled.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -143,7 +143,7 @@ nav li {
 header {
     margin: 60px auto 0 auto;
     max-width: 1000px;
-    min-height: 90vh;
+    /* min-height: 90vh; */
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
