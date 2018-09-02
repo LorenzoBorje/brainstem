@@ -1,0 +1,276 @@
+@font-face {
+    font-family: 'OpenDyslexic3';
+    src: url('/fonts/OpenDyslexicThree-Bold.woff2') format('woff2'),
+        url('/fonts/OpenDyslexicThree-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'OpenDyslexic3';
+    src: url('/fonts/OpenDyslexicThree-Regular.woff2') format('woff2'),
+        url('/fonts/penDyslexicThree-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Sabo';
+    src: url('/fonts/Sabo-Filled.woff2') format('woff2'),
+        url('/fonts/Sabo-Filled.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* > * {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    font-family: 'OpenDyslexic3', sans-serif;
+}
+
+/* Navigation */
+
+h1, h2, h3, h4 {
+    font-family: 'Sabo', sans-serif;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.sabo {
+    font-family: 'Sabo', sans-serif;
+}
+
+.title {
+    display: inline;
+    text-align: center;
+}
+
+/* Navigation */
+
+nav {
+    height: 60px;
+    font-family: 'Sabo', sans-serif;
+    padding: 20px;
+    /* position: relative; */
+    width: 100%;
+
+}
+
+nav h1 {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top:-10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav span, nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    float: right;
+}
+
+nav li {
+    display: inline;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+/* Colors for logo. */
+
+.red {
+    color: #EB294c;
+}
+
+.red-background {
+    background-color: #EB295c;
+}
+
+.blue {
+    color: #4Fb3E3;
+}
+
+.blue-background {
+    background-color: #4Fb3E3;
+}
+
+.orange {
+    color: #F9AA31;
+}
+
+.orange-background {
+    background-color: #F9AA31;
+}
+
+.green {
+    color: #30B150;
+}
+
+.green-background {
+    background-color: #30B150;
+}
+/* Top page */
+
+header {
+    margin: 60px auto 0 auto;
+    max-width: 1000px;
+    min-height: 90vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/* Workshops */
+
+.workshop {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+.description {
+    color: black;
+    padding: 20px; 
+    font-size: 12px;
+}
+
+.button {
+    display: block;
+    background-color: #30B150;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: 'Sabo', sans-serif;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.button:hover {
+    background-color: darkgreen;
+}
+
+/* Training */
+
+.intro > img {
+    border-radius: 10px;
+}
+
+/* About */
+
+.staff {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+/* Contact */
+
+
+.contact {
+    height: 400px;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type=email] {
+    width: 400px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+}
+
+.coming-soon {
+    text-align: center;
+}
+
+/* Default container object */
+
+section {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.container {
+    max-width: 1000px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.no-flex {
+    display: block;
+}
+
+/* Flexbox Stuff and Tings */
+
+.col-6, .col-12, .col-4, .col-3 {
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 0.5%;
+    margin-left: 0.5%;
+}
+
+.col-6 img, .col-4 img, .col-12 img, .col-3 img {
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 640px) {
+    .col-6 {
+        width: 45%;
+    }
+    .col-4 {
+        width: 30%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .col-3 {
+        width: 24%;
+    }
+  }
