@@ -1,23 +1,23 @@
 @font-face {
     font-family: 'OpenDyslexic3';
-    src: url('/fonts/OpenDyslexicThree-Bold.woff2') format('woff2'),
-        url('/fonts/OpenDyslexicThree-Bold.woff') format('woff');
+    src: url('brainstem/styles/fonts/OpenDyslexicThree-Bold.woff2') format('woff2'),
+        url('brainstem/styles/fonts/OpenDyslexicThree-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'OpenDyslexic3';
-    src: url('/fonts/OpenDyslexicThree-Regular.woff2') format('woff2'),
-        url('/fonts/penDyslexicThree-Regular.woff') format('woff');
+    src: url('brainste/styles/fonts/OpenDyslexicThree-Regular.woff2') format('woff2'),
+        url('brainstem/styles/fonts/penDyslexicThree-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sabo';
-    src: url('/fonts/Sabo-Filled.woff2') format('woff2'),
-        url('/fonts/Sabo-Filled.woff') format('woff');
+    src: url('brainstem/styles/fonts/Sabo-Filled.woff2') format('woff2'),
+        url('brainstem/styles/fonts/Sabo-Filled.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
