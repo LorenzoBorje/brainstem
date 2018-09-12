@@ -1,25 +1,30 @@
 @font-face {
     font-family: 'OpenDyslexic3';
-    src: url('styles/fonts/OpenDyslexicThree-Bold.woff2') format('woff2'),
-        url('styles/fonts/OpenDyslexicThree-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'OpenDyslexic3';
-    src: url('brainste/styles/fonts/OpenDyslexicThree-Regular.woff2') format('woff2'),
-        url('styles/fonts/penDyslexicThree-Regular.woff') format('woff');
+    src: url('fonts/opendyslexic3-regular-webfont.eot');
+    src: url('fonts/opendyslexic3-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/opendyslexic3-regular-webfont.woff2') format('woff2'),
+         url('fonts/opendyslexic3-regular-webfont.woff') format('woff'),
+         url('fonts/opendyslexic3-regular-webfont.ttf') format('truetype'),
+         url('fonts/opendyslexic3-regular-webfont.svg#opendyslexic3regular') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
+
+
+
 
 @font-face {
     font-family: 'Sabo';
-    src: url('styles/fonts/Sabo-Filled.woff2') format('woff2'),
-        url('styles/fonts/Sabo-Filled.woff') format('woff');
+    src: url('fonts/sabo-filled-webfont.eot');
+    src: url('fonts/sabo-filled-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/sabo-filled-webfont.woff2') format('woff2'),
+         url('fonts/sabo-filled-webfont.woff') format('woff'),
+         url('fonts/sabo-filled-webfont.ttf') format('truetype'),
+         url('fonts/sabo-filled-webfont.svg#sabofilled') format('svg');
     font-weight: normal;
     font-style: normal;
+
 }
 
 
